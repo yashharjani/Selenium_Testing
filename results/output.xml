@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.2 on win32)" generated="20230518 17:28:47.555" rpa="false" schemaversion="3">
+<suite id="s1" name="Vscode Selenium Practice" source="C:\vscode selenium practice">
+<suite id="s1-s1" name="1" source="C:\vscode selenium practice\1.robot">
+<test id="s1-s1-t1" name="Login Test" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230518 17:28:47.772" level="INFO">Opening browser 'Chrome' to base url 'http://beta.blitznet.co.id/signin'.</msg>
+<status status="PASS" starttime="20230518 17:28:47.771" endtime="20230518 17:28:51.825"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>email</arg>
+<arg>${EMAIL}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230518 17:28:51.829" level="INFO">Typing text 'vijaychauhan@yopmail.com' into text field 'email'.</msg>
+<status status="PASS" starttime="20230518 17:28:51.827" endtime="20230518 17:28:51.937"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230518 17:28:51.939" level="INFO">Typing text 'vijaychauhan@yopmail.com' into text field 'password'.</msg>
+<status status="PASS" starttime="20230518 17:28:51.938" endtime="20230518 17:28:52.015"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>buyerLoginInBtnId</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230518 17:28:52.016" level="INFO">Clicking button 'buyerLoginInBtnId'.</msg>
+<status status="PASS" starttime="20230518 17:28:52.016" endtime="20230518 17:28:52.068"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20230518 17:28:52.069" endtime="20230518 17:28:54.185"/>
+</kw>
+<doc>Test the login functionality</doc>
+<status status="PASS" starttime="20230518 17:28:47.770" endtime="20230518 17:28:54.186"/>
+</test>
+<status status="PASS" starttime="20230518 17:28:47.591" endtime="20230518 17:28:54.188"/>
+</suite>
+<status status="PASS" starttime="20230518 17:28:47.558" endtime="20230518 17:28:54.190"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Vscode Selenium Practice">Vscode Selenium Practice</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="1">Vscode Selenium Practice.1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
